@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Setta Energia | Energia solar, economia e sustentabilidade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet"/>
+  <link href="https://db.onlinewebfonts.com/c/cd7b05ba22e73021e0a390f532a72589?family=PP+Telegraf" rel="stylesheet"/>
+  <link href="https://db.onlinewebfonts.com/c/ac187c52eeff516225fc35f138f225fc?family=PP+Telegraf+UltraBold" rel="stylesheet"/>
+  <link rel="stylesheet" href="blog-setta.css"/>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <a href="https://settaenergia.com.br/">
+      <img src="https://settaenergia.com.br/assets/Logo2.svg" alt="Setta Energia"/>
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="https://settaenergia.com.br/">Início</a></li>
+      <li><a href="https://settaenergia.com.br/#como-funciona">Como Funciona</a></li>
+      <li><a href="https://settaenergia.com.br/#clientes-ativos">Nossos Clientes</a></li>
+      <li><a href="https://settaenergia.com.br/quemSomos.html">Quem Somos</a></li>
+      <li><a href="https://settaenergia.com.br/usinas.html">Usinas</a></li>
+      <li><a href="index.html" class="ativo">Blog</a></li>
+      <li><a href="https://settaenergia.com.br/#faq">FAQ</a></li>
+      <li class="portal"><a href="https://www.portalsettaenergia.com.br/">Portal do Cliente</a></li>
+    </ul>
+  </nav>
+  <button class="menu-mobile-btn" onclick="document.querySelector('.mobile-nav').classList.toggle('open')" aria-label="Menu">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#13154f" stroke-width="2.5" stroke-linecap="round">
+      <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+  </button>
+</header>
+
+<div class="mobile-nav">
+  <a href="https://settaenergia.com.br/">Início</a>
+  <a href="https://settaenergia.com.br/#como-funciona">Como Funciona</a>
+  <a href="https://settaenergia.com.br/#clientes-ativos">Nossos Clientes</a>
+  <a href="https://settaenergia.com.br/quemSomos.html">Quem Somos</a>
+  <a href="https://settaenergia.com.br/usinas.html">Usinas</a>
+  <a href="index.html">Blog</a>
+  <a href="https://settaenergia.com.br/#faq">FAQ</a>
+  <a href="https://www.portalsettaenergia.com.br/">Portal do Cliente</a>
+</div>
+
+<!-- HERO DO BLOG -->
+<section class="blog-hero">
+  <h1>Energia mais barata começa com informação</h1>
+  <p>Fique por dentro de energia solar, economia na conta de luz, sustentabilidade e novidades da Setta.</p>
+</section>
+
+<!-- CARDS EM DESTAQUE -->
+<section class="blog-featured">
+
+  <!-- Card 1 — Maratona -->
+  <a href="blog-maratona.html" class="blog-card">
+    <img
+      class="blog-card-img"
+      src="assets/blog/thumbnail-maratona.jpg"
+      alt="Meia Maratona do Marco Zero — Setta Energia"
+    />
+    <div class="blog-card-body">
+      <span class="blog-card-cat">
+        <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13" cy="4" r="2"/><path d="M14.8 8.4L9 10l2 6 3-3 3 5H19"/><path d="M5 14l2-4 4 1"/></svg>
+        Esporte &amp; Patrocínio
+      </span>
+      <p class="blog-card-title">Setta Energia confirma patrocínio na 1ª Meia Maratona do Marco Zero 2025</p>
+      <p class="blog-card-excerpt">A corrida reuniu centenas de atletas no coração do Recife Antigo. Saiba como a Setta participou e como clientes ganharam inscrições gratuitas.</p>
+      <span class="blog-card-link">
+        Leia o artigo
+        <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </span>
+    </div>
+  </a>
+
+  <!-- Card 2 — Energia por Assinatura -->
+  <a href="blog-energia-assinatura.html" class="blog-card">
+    <img
+      class="blog-card-img"
+      src="assets/blog/thumbnail-energia-assinatura.jpg"
+      alt="Energia por Assinatura — Setta Energia"
+    />
+    <div class="blog-card-body">
+      <span class="blog-card-cat">
+        <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        Energia Solar
+      </span>
+      <p class="blog-card-title">Vale a pena migrar para energia por assinatura? Descubra os benefícios!</p>
+      <p class="blog-card-excerpt">A conta de luz pesa no bolso? Entenda como o modelo de energia por assinatura pode gerar 20% de economia sem obras, sem investimento inicial e sem burocracia.</p>
+      <span class="blog-card-link">
+        Leia o artigo
+        <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </span>
+    </div>
+  </a>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="f-left">
+    <a href="https://settaenergia.com.br/">
+      <img src="https://settaenergia.com.br/assets/Logo2.svg" alt="Setta Energia" class="f-logo"/>
+    </a>
+    <p class="f-copy">© 2024 Setta Energia<br/>Setta Energia 27.786.322/0001-64</p>
+  </div>
+  <div class="f-social">
+    <a href="https://www.facebook.com/settaenergia/" target="_blank" aria-label="Facebook">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/settaenergia/" target="_blank" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+    </a>
+    <a href="https://br.linkedin.com/company/settaenergia" target="_blank" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+    </a>
+    <a href="https://wa.me/558130195995" target="_blank" aria-label="WhatsApp" class="f-social-wa">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a6.073 6.073 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.875 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
