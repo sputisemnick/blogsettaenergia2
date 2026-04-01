@@ -265,9 +265,22 @@ header nav ul li.portal a:hover { background: var(--azul-mid); }
   font-size: 1rem; font-weight: 900; color: var(--azul); margin-bottom: .9rem;
 }
 .ic-badge {
-  background: var(--laranja); color: var(--azul);
-  font-size: .68rem; font-weight: 800;
-  padding: .18rem .6rem; border-radius: 30px; text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--laranja); 
+  color: var(--azul);
+
+  font-size: .68rem; 
+  font-weight: 800;
+  text-transform: uppercase;
+
+  padding: .4rem 1rem;
+  border-radius: 30px;
+
+  text-align: center;
+  white-space: nowrap;
 }
 .indique-pills { display: flex; flex-direction: column; gap: .5rem; }
 .indique-pill {
